@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    background: linear-gradient(#620678, #18d6fc);
+}
+
+img {
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+
+}
+
+#myname {
+    font-family: 'Courgette', cursive;
+    color: white;
+}
+
+#welcome {
+    padding: 70px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 42;
+    background: white;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.menu {
+    font-family: cursive;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    width: 80%;
+    margin-top: 0;
+    position: fixed;
+    padding: 10px;
+    float: none;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+
+.menu a {
+    color: black!important;
+    text-decoration-line: none;
+}
+
+
+.link {
+    color: black;
+    display: inline;
+    padding-left: 10px;
+}
+
+.link:hover {
+    background-color: white;
+    color: black;
+}
+
+#My work a {
+    font-size: :30px;
+
+}
+
+#References a {
+    font-size: :30px;
+}
+
+    #picture {
+        width: auto;
+        height: 300px;
+        border-radius: 0%;
+        margin: 20px;
+    }
+
+    .inspiration {
+        background: white;
+        border-radius: 20px;
+        margin: 30px;
+        padding-top: 20px;
+    }
+
+    img {
+        transition: transform .2s;
+        border: 10px solid black;
+        border-radius: 20px;
+    }
+.button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.button a{
+        color: black;
+        text-decoration-line: none;
+}
+    img:hover {
+        /*Give transform property to scale to 0.9*/
+        transform: scale(0.9);
+
+    }
